@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  button{
+      cursor: pointer;
+  }
+  .uploader_wrapper {
+    margin: 20px 0;
+    background: rgb(255 255 255 / 69%);
+    padding: 20px 10px;
+    border: 1px solid #000;
+  }
+  .photo_effect {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 250px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  #canvas {
+    width: 100%;
+    height: auto;
+  }
+  .photo_area {
+    text-align: center;
+    background: #fb5d2a;
+    padding: 8px;
+  }
+  
+  .photo_area h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Tourney', cursive;
+  }
+  
+  .buttons {
+    background: repeating-linear-gradient(45deg, #341ca6, #fd531b);
+    padding: 10px;
+  }
+  
+  .effct_buttons button {
+    display: block;
+    width: 100%;
+    border: none;
+    margin: 5px 0;
+    padding: 10px;
+    background: rgb(255 255 255 / 28%);
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .control {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .control button {
+    width: calc(50% - 2.5px);
+    padding: 10px;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+  }
+  
+  .control button:first-child {
+    background: rgb(0 0 0 / 56%);
+  }
+  
+  .control button:last-child {
+    background: #03d35f;
+  }
+  .project_details {padding: 30px;background: #ddd;color: #333;}
+
+.copyright {
+    padding: 10px 30px;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 100px;
+}
+.github {
+    
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.github a {
+    color: #000;
+    width: 50px;
+    display: inline-block;
+}
+@media only screen and (max-width: 767px) {
+    .github {
+        position:inherit;
+        text-align: right;
+        padding: 20px 20px 0;
+    }
+    .github a {
+        width: 30px;
+    }
+.photo_effect {
+    display: block;
+    margin: 0px;
+}
+}
